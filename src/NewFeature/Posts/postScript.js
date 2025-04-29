@@ -24,7 +24,7 @@ let PostScript = ({ post }) => {
           </div>
           <div className="flex items-center justify-between mt-4">
             <Link
-              to={`post/${post.id}`}
+              to={`/post/${post.id}`}
               className="px-5 py-2 text-sm text-white bg-gradient-to-r from-indigo-600 to-purple-600 rounded-md font-semibold transition-all hover:from-indigo-700 hover:to-purple-700"
             >
               View Post
